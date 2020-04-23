@@ -1,9 +1,9 @@
 ## makeCacheMatrix
 ## Using the sample code
-## This function creates a special "matrix" 
-## object that can cache its inverse.
-
-## This function creates a special "matrix" object that can cache its inverse.
+## This function creates a special "matrix"
+## creates the inverse of the matrix
+## and caches it for future retrieval 
+## in the cacheSolve function
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
